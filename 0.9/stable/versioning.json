@@ -1,8 +1,8 @@
 {
-  "buildTime": "2025-05-26T01:30:10.413Z",
+  "buildTime": "2025-12-16T01:03:54.599Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.53",
-    "types": "1.0.0-alpha.53"
+    "toolchain": "1.0.0-alpha.57",
+    "types": "1.0.0-alpha.57"
   },
   "repository": {
     "name": "General Extensions (0.9)",
@@ -12,7 +12,7 @@
     {
       "name": "Asura Scans",
       "description": "Extension that pulls content from asuracomic.net.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -34,7 +34,7 @@
     {
       "name": "Bato.To",
       "description": "Extension that pulls content from bato.to.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
@@ -47,38 +47,34 @@
       "badges": [],
       "developers": [
         {
-          "name": "Egwau"
-        }
-      ],
-      "id": "BatoTo"
-    },
-    {
-      "name": "ComicK",
-      "description": "Extension that pulls content from comick.io.",
-      "version": "1.0.0-alpha.9",
-      "icon": "icon.png",
-      "language": "en",
-      "contentRating": "SAFE",
-      "capabilities": [
-        4,
-        1,
-        64,
-        32
-      ],
-      "badges": [],
-      "developers": [
-        {
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
         }
       ],
-      "id": "ComicK"
+      "id": "BatoTo"
+    },
+    {
+      "name": "MangaDemon",
+      "description": "Extension that pulls content from demonicscans.org.",
+      "version": "1.0.0-alpha.2",
+      "icon": "icon.png",
+      "language": "🇺🇸",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "samipmainali",
+          "github": "https://github.com/samipmainali"
+        }
+      ],
+      "id": "MangaDemon"
     },
     {
       "name": "MangaDex",
       "description": "Extension that pulls content from mangadex.org.",
-      "version": "1.0.0-alpha.16",
+      "version": "1.0.0-alpha.17",
       "icon": "icon.png",
       "languages": "multi",
       "contentRating": "SAFE",
@@ -103,7 +99,7 @@
     {
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
@@ -189,7 +185,7 @@
     {
       "name": "Mangapill",
       "description": "Extension that pulls content from mangapill.com.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -201,9 +197,8 @@
       "badges": [],
       "developers": [
         {
-          "name": "Inkdex",
-          "website": "https://inkdex.github.io",
-          "github": "https://github.com/inkdex"
+          "name": "GabrielCWT",
+          "github": "https://github.com/GabrielCWT"
         }
       ],
       "id": "Mangapill"
@@ -211,7 +206,7 @@
     {
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.13",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -232,9 +227,30 @@
       "id": "Mgeko"
     },
     {
+      "name": "Scylla Comics",
+      "description": "Extension that pulls content from scyllacomics.xyz.",
+      "version": "1.0.0-alpha.2",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "ADULT",
+      "capabilities": [
+        16,
+        4,
+        1,
+        64
+      ],
+      "badges": [],
+      "developers": [
+        {
+          "name": "Lucifers Circle"
+        }
+      ],
+      "id": "ScyllaComics"
+    },
+    {
       "name": "Webtoon",
       "description": "Extension that pulls content from webtoons.com",
-      "version": "1.0.0-alpha.6",
+      "version": "1.0.0-alpha.9",
       "icon": "icon.png",
       "languages": "multi",
       "contentRating": "MATURE",
@@ -256,24 +272,41 @@
     {
       "name": "Weeb Central",
       "description": "Extension that pulls content from weebcentral.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
       "capabilities": [
         1,
         4,
-        64
+        64,
+        32
       ],
       "badges": [],
       "developers": [
         {
-          "name": "Inkdex",
-          "website": "https://inkdex.github.io",
-          "github": "https://github.com/inkdex"
+          "name": "GabrielCWT",
+          "github": "https://github.com/GabrielCWT"
         }
       ],
       "id": "WeebCentral"
+    },
+    {
+      "name": "Zzizz",
+      "description": "Extension that pulls content from zzizz.xyz.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇺🇸",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 101,
+      "developers": [
+        {
+          "name": "samipmainali",
+          "github": "https://github.com/samipmainali"
+        }
+      ],
+      "id": "Zzizz"
     }
   ]
 }
