@@ -1,18 +1,18 @@
 {
-  "buildTime": "2026-02-05T05:53:44.010Z",
+  "buildTime": "2026-03-14T03:46:09.213Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.57",
-    "types": "1.0.0-alpha.57"
+    "toolchain": "1.0.0-alpha.64",
+    "types": "1.0.0-alpha.64"
   },
   "repository": {
-    "name": "General Extensions (0.9)",
+    "name": "general-extensions",
     "description": "Paperback extensions for websites with unique, non-generic themes. Maintained by Inkdex."
   },
   "sources": [
     {
       "name": "Asura Scans",
       "description": "Extension that pulls content from asuracomic.net.",
-      "version": "1.0.0-alpha.8",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -34,7 +34,7 @@
     {
       "name": "Atsumaru",
       "description": "Extension that pulls content from atsu.moe.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.16",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -42,7 +42,8 @@
         16,
         4,
         1,
-        64
+        64,
+        32
       ],
       "badges": [],
       "developers": [
@@ -55,11 +56,11 @@
     {
       "name": "ComixTo",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
-      "capabilities": 101,
+      "capabilities": 117,
       "badges": [],
       "developers": [
         {
@@ -72,9 +73,9 @@
     {
       "name": "MangaDemon",
       "description": "Extension that pulls content from demonicscans.org.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
-      "language": "🇺🇸",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
@@ -89,7 +90,7 @@
     {
       "name": "MangaDex",
       "description": "Extension that pulls content from mangadex.org.",
-      "version": "1.0.0-alpha.18",
+      "version": "1.0.0-alpha.23",
       "icon": "icon.png",
       "languages": "multi",
       "contentRating": "SAFE",
@@ -114,7 +115,7 @@
     {
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
@@ -138,14 +139,15 @@
     {
       "name": "MangaFox",
       "description": "Extension that pulls content from fanfox.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.9",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
       "capabilities": [
         4,
         64,
-        1
+        1,
+        16
       ],
       "badges": [],
       "developers": [
@@ -158,14 +160,15 @@
     {
       "name": "MangaKatana",
       "description": "Extension that pulls content from mangakatana.com.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
       "capabilities": [
         4,
         64,
-        1
+        1,
+        16
       ],
       "badges": [],
       "developers": [
@@ -178,7 +181,7 @@
     {
       "name": "MangaPlus",
       "description": "Extension that pulls content from mangaplus.shueisha.co.jp.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -200,7 +203,7 @@
     {
       "name": "Mangapill",
       "description": "Extension that pulls content from mangapill.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -221,7 +224,7 @@
     {
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.15",
+      "version": "1.0.0-alpha.22",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -244,7 +247,7 @@
     {
       "name": "QiScans",
       "description": "Extension that pulls content from qiscans.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -265,7 +268,7 @@
     {
       "name": "Webtoon",
       "description": "Extension that pulls content from webtoons.com",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.13",
       "icon": "icon.png",
       "languages": "multi",
       "contentRating": "MATURE",
@@ -287,7 +290,7 @@
     {
       "name": "Weeb Central",
       "description": "Extension that pulls content from weebcentral.com.",
-      "version": "1.0.0-alpha.11",
+      "version": "1.0.0-alpha.18",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -300,6 +303,28 @@
         }
       ],
       "id": "WeebCentral"
+    },
+    {
+      "name": "WeebDex",
+      "description": "Extension that pulls content from weebdex.org.",
+      "version": "1.0.0-alpha.8",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "MATURE",
+      "capabilities": [
+        16,
+        4,
+        1,
+        64,
+        32
+      ],
+      "badges": [],
+      "developers": [
+        {
+          "name": "Lucifers Circle"
+        }
+      ],
+      "id": "WeebDex"
     }
   ]
 }
