@@ -7,44 +7,44 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 197
+        "duration": 250
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 6
+        "duration": 8
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 642
+        "duration": 652
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 353
+        "duration": 263
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 502
+        "duration": 414
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 189
+        "duration": 139
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 1889
+      "duration": 1726
     }
   },
   "Comix": {
@@ -55,46 +55,46 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 188
+        "duration": 239
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 7
+        "duration": 9
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 861
+        "duration": 562
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 276
+        "duration": 198
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "Error: Not Implemented",
-        "duration": 357
+        "duration": 287
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       }
     ],
     "summary": {
       "passed": 4,
       "failed": 2,
       "total": 6,
-      "duration": 1690
+      "duration": 1295
     }
   },
   "MangaDemon": {
@@ -105,44 +105,44 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 166
+        "duration": 212
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 431
+        "duration": 565
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 188
+        "duration": 148
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 190
+        "duration": 163
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 183
+        "duration": 139
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 505
+        "duration": 406
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 1663
+      "duration": 1633
     }
   },
   "MangaDex": {
@@ -152,21 +152,21 @@
   "MangaFox": {
     "console": [
       {
-        "time": 1779074377250,
+        "time": 1779082283515,
         "args": [
           "Chapter ID: c001"
         ],
         "method": "log"
       },
       {
-        "time": 1779074377251,
+        "time": 1779082283515,
         "args": [
           "Fetching chapter details for c001"
         ],
         "method": "log"
       },
       {
-        "time": 1779074379439,
+        "time": 1779082285936,
         "args": [
           "Successfully extracted 26 pages"
         ],
@@ -179,60 +179,60 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 126
+        "duration": 158
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 266
+        "duration": 445
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 506
+        "duration": 310
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 234
+        "duration": 278
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 2189
+        "duration": 2421
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 3321
+      "duration": 3612
     }
   },
   "MangaKatana": {
     "console": [
       {
-        "time": 1779074377562,
+        "time": 1779082283651,
         "args": [
           "\n\n It failed from here \n\n"
         ],
         "method": "log"
       },
       {
-        "time": 1779074377563,
+        "time": 1779082283652,
         "args": [
           "\n\nThe Mangas Length: 20 , the page: 1 and nextPageMeta: {\"page\":2}\n\n"
         ],
         "method": "log"
       },
       {
-        "time": 1779074378240,
+        "time": 1779082284269,
         "args": [
-          "Extracted pages: [\"https://i1.mangakatana.com/token/d349ee9e6010960797957%3At%3A708.464p25-0c3q0w%3An%3A235%3A9q6p7076510/0.jpg\",\"https://i1.mangakatana.com/token/d349ee9e6010960797957%3At%3A708.464p25-0c3q0w%3An%3A235%3A9q6p7076510/0.jpg\",\"https://i1.mangakatana.com/token/74ce6f1460109607979n7%3At%3A708.481p25-0c340w%3An%3A235%3A9q4p7o76q31/1.jpg\",\"https://i1.mangakatana.com/token/bd4d4d5d60109607979q7%3At%3A708.48qp25-0c370w%3An%3A235%3A9q9p7776p52/2.jpg\",\"https://i1.mangakatana.com/token/fa2dad1e6010960797987%3At%3A708.410p25-0c3o0w%3An%3A235%3A9q7p7q76n23/3.jpg\",\"https://i1.mangakatana.com/token/182fa1256010960797957%3At%3A708.4npp25-0c330w%3An%3A235%3A9qpp7076704/4.jpg\",\"https://i1.mangakatana.com/token/3868f4016010960797937%3At%3A708.4p7p25-0c350w%3An%3A235%3A9qsp7576q25/5.jpg\",\"https://i1.mangakatana.com/token/6cc1edf66010960797987%3At%3A708.42sp25-0c310w%3An%3A235%3A9q7p7776r76/6.jpg\",\"https://i1.mangakatana.com/token/4efd85706010960797917%3At%3A708.44qp25-0c320w%3An%3A235%3A9q3p7076907/7.jpg\",\"https://i1.mangakatana.com/token/68c1883460109607979s7%3At%3A708.46op25-0c350w%3An%3A235%3A9q5p7n765r8/8.jpg\",\"https://i1.mangakatana.com/token/cc312cdc6010960797947%3At%3A708.4n0p25-0c3s0w%3An%3A235%3A9qsp7076109/9.jpg\",\"https://i1.mangakatana.com/token/997bb3d36010960797.n52477%3A%3A01%3A3q8t690c3r0w8n%3A29p%3Apqn574738-0/10.jpg\",\"https://i1.mangakatana.com/token/40b0caac6010960797.152477%3A%3A01%3Asqnt690c3o0w8n%3A29p%3Apq957373s-1/11.jpg\",\"https://i1.mangakatana.com/token/7968294f6010960797.n52477%3A%3A01%3A407t690c350w8n%3A29p%3Apq6572732-2/12.jpg\",\"https://i1.mangakatana.com/token/f6bb2ed46010960797.452477%3A%3A01%3A38pt690c3n0w8n%3A29p%3Apq357173o-3/13.jpg\",\"https://i1.mangakatana.com/token/42b213426010960797.n52477%3A%3A01%3A51rt690c380w8n%3A29p%3Apq9576734-4/14.jpg\",\"https://i1.mangakatana.com/token/ecb5046c6010960797.652477%3A%3A01%3Anrst690c310w8n%3A29p%3Apq957s73q-5/15.jpg\",\"https://i1.mangakatana.com/token/877a0dc36010960797.752477%3A%3A01%3Ao25t690c380w8n%3A29p%3Apqp57s739-6/16.jpg\",\"https://i1.mangakatana.com/token/ad10d4a56010960797.352477%3A%3A01%3Ao1nt690c3q0w8n%3A29p%3Apq157q738-7/17.jpg\",\"https://i1.mangakatana.com/token/1d9d07526010960797.952477%3A%3A01%3A8prt690c350w8n%3A29p%3Apq0579739-8/18.jpg\",\"https://i1.mangakatana.com/token/6cf20a1b6010960797.r52477%3A%3A01%3Aqprt690c3p0w8n%3A29p%3Apq257n73n-9/19.jpg\",\"https://i1.mangakatana.com/token/9f07efa46010960797.s52477%3A%3A02%3Asn2t690c320w8n%3A29p%3Apq557p737-0/20.jpg\",\"https://i1.mangakatana.com/token/ce7be8496010960797.s52477%3A%3A02%3As26t690c380w8n%3A29p%3Apqo573734-1/21.jpg\",\"https://i1.mangakatana.com/token/934c43176010960797.o52477%3A%3A02%3A5s5t690c3s0w8n%3A29p%3Apq5571733-2/22.jpg\",\"https://i1.mangakatana.com/token/be61df0c6010960797.q52477%3A%3A02%3A22st690c320w8n%3A29p%3Apqo577730-3/23.jpg\",\"https://i1.mangakatana.com/token/46075f6d6010960797.o52477%3A%3A02%3Ar88t690c3o0w8n%3A29p%3Apqn574737-4/24.jpg\",\"https://i1.mangakatana.com/token/33163f686010960797.952477%3A%3A02%3Ap14t690c310w8n%3A29p%3Apq3573732-5/25.jpg\",\"https://i1.mangakatana.com/token/b72d37e36010960797.352477%3A%3A02%3A377t690c3n0w8n%3A29p%3Apq7573730-6/26.jpg\",\"https://i1.mangakatana.com/token/bb678bd16010960797.452477%3A%3A02%3As69t690c380w8n%3A29p%3Apqs57o73p-7/27.jpg\",\"https://i1.mangakatana.com/token/135a4af16010960797.252477%3A%3A02%3A195t690c330w8n%3A29p%3Apq857173n-8/28.jpg\",\"https://i1.mangakatana.com/token/d0ccd0da6010960797.q52477%3A%3A02%3A91ot690c310w8n%3A29p%3Apqq570730-9/29.jpg\",\"https://i1.mangakatana.com/token/16209e8b6010960797.r52477%3A%3A03%3A65ot690c390w8n%3A29p%3Apq057373s-0/30.jpg\",\"https://i1.mangakatana.com/token/e8a0287b6010960797.052477%3A%3A03%3Ao91t690c3p0w8n%3A29p%3Apqq577738-1/31.jpg\",\"https://i1.mangakatana.com/token/c66f2a316010960797.352477%3A%3A03%3A9oqt690c380w8n%3A29p%3Apq257s736-2/32.jpg\",\"https://i1.mangakatana.com/token/25e4aa276010960797.052477%3A%3A03%3A065t690c3p0w8n%3A29p%3Apq1578732-3/33.jpg\",\"https://i1.mangakatana.com/token/35be32706010960797.152477%3A%3A03%3Apn3t690c330w8n%3A29p%3Apq457o733-4/34.jpg\"]"
+          "Extracted pages: [\"https://i1.mangakatana.com/token/e086e9558010040797633%3At%3An28.71sp2n-2c210w%3A0%3A066%3A9qo02r17p80/0.jpg\",\"https://i1.mangakatana.com/token/e086e9558010040797633%3At%3An28.71sp2n-2c210w%3A0%3A066%3A9qo02r17p80/0.jpg\",\"https://i1.mangakatana.com/token/7d6984238010040797643%3At%3An28.75sp2n-2c240w%3A0%3A066%3A9qs02317371/1.jpg\",\"https://i1.mangakatana.com/token/68ed600180100407976p3%3At%3An28.722p2n-2c270w%3A0%3A066%3A9q502r17r92/2.jpg\",\"https://i1.mangakatana.com/token/014002c780100407976r3%3At%3An28.7q1p2n-2c210w%3A0%3A066%3A9q302217603/3.jpg\",\"https://i1.mangakatana.com/token/9a7d3d8380100407976r3%3At%3An28.779p2n-2c2q0w%3A0%3A066%3A9q202r17so4/4.jpg\",\"https://i1.mangakatana.com/token/da0d4b8080100407976r3%3At%3An28.784p2n-2c2q0w%3A0%3A066%3A9qs02o17n05/5.jpg\",\"https://i1.mangakatana.com/token/b317319180100407976p3%3At%3An28.78np2n-2c290w%3A0%3A066%3A9q002o17006/6.jpg\",\"https://i1.mangakatana.com/token/aaaaaa088010040797613%3At%3An28.748p2n-2c220w%3A0%3A066%3A9qs02117o67/7.jpg\",\"https://i1.mangakatana.com/token/34ecb5d180100407976s3%3At%3An28.7ppp2n-2c280w%3A0%3A066%3A9qq02017508/8.jpg\",\"https://i1.mangakatana.com/token/2bc482568010040797693%3At%3An28.769p2n-2c2q0w%3A0%3A066%3A9qr02p173p9/9.jpg\",\"https://i1.mangakatana.com/token/5d51feea8010040797.o627n3%3A%3A21%3As72t792c240w80%3A060%3Apq2n24163-0/10.jpg\",\"https://i1.mangakatana.com/token/5e0e73a98010040797.n627n3%3A%3A21%3Asp2t792c240w80%3A060%3Apq6n2s165-1/11.jpg\",\"https://i1.mangakatana.com/token/9859f53b8010040797.4627n3%3A%3A21%3A6s9t792c270w80%3A060%3Apqqn2616p-2/12.jpg\",\"https://i1.mangakatana.com/token/51e5d62d8010040797.2627n3%3A%3A21%3Ao53t792c210w80%3A060%3Apq7n29169-3/13.jpg\",\"https://i1.mangakatana.com/token/5c6a26e18010040797.1627n3%3A%3A21%3A072t792c290w80%3A060%3Apq5n2o16s-4/14.jpg\",\"https://i1.mangakatana.com/token/fcb565728010040797.n627n3%3A%3A21%3A85st792c260w80%3A060%3Apq8n22161-5/15.jpg\",\"https://i1.mangakatana.com/token/d7f8f23e8010040797.3627n3%3A%3A21%3As14t792c2q0w80%3A060%3Apq7n2q167-6/16.jpg\",\"https://i1.mangakatana.com/token/d9f4bed18010040797.p627n3%3A%3A21%3A8o2t792c270w80%3A060%3Apqrn21169-7/17.jpg\",\"https://i1.mangakatana.com/token/42002ed18010040797.4627n3%3A%3A21%3Aq5st792c2p0w80%3A060%3Apq2n22161-8/18.jpg\",\"https://i1.mangakatana.com/token/6afb36358010040797.5627n3%3A%3A21%3A976t792c240w80%3A060%3Apqon24163-9/19.jpg\",\"https://i1.mangakatana.com/token/79794a0a8010040797.1627n3%3A%3A22%3A075t792c230w80%3A060%3Apq9n2o163-0/20.jpg\",\"https://i1.mangakatana.com/token/e361ac768010040797.8627n3%3A%3A22%3Anqnt792c230w80%3A060%3Apqsn26160-1/21.jpg\",\"https://i1.mangakatana.com/token/0fa5cfb88010040797.3627n3%3A%3A22%3A8s9t792c2q0w80%3A060%3Apq5n2o167-2/22.jpg\",\"https://i1.mangakatana.com/token/554d661a8010040797.7627n3%3A%3A22%3An71t792c2n0w80%3A060%3Apq0n2o162-3/23.jpg\",\"https://i1.mangakatana.com/token/bc09cff78010040797.9627n3%3A%3A22%3A051t792c2s0w80%3A060%3Apq4n27162-4/24.jpg\",\"https://i1.mangakatana.com/token/0a9c1d4c8010040797.r627n3%3A%3A22%3A874t792c2r0w80%3A060%3Apqon28166-5/25.jpg\",\"https://i1.mangakatana.com/token/37c5b6298010040797.r627n3%3A%3A22%3A793t792c240w80%3A060%3Apq8n21162-6/26.jpg\"]"
         ],
         "method": "log"
       }
@@ -243,38 +243,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 106
+        "duration": 133
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1319
+        "duration": 1169
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 235
+        "duration": 214
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 225
+        "duration": 214
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 217
+        "duration": 188
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 2102
+      "duration": 1918
     }
   },
   "MangaPlus": {
@@ -285,14 +285,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 100
+        "duration": 126
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: You have been banned from MANGA Plus by SHUEISHA due to a possible violation of our Terms of Service.\nhttps://mangaplus.shueisha.co.jp/terms_web/eng/\nIf you have a MANGA Plus MAX subscription, it won't be automatically canceled. Find information on how to cancel you subscription here:\nhttps://mangaplus.thinkowl.jp/portal/mangaplus/knowledgebase/file/4634/How-do-I-cancel-my-subscription%3F(10900)",
-        "duration": 555
+        "duration": 815
       },
       {
         "name": "getMangaDetails",
@@ -306,7 +306,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapterDetails",
@@ -320,7 +320,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 655
+      "duration": 942
     }
   },
   "MangaTaro": {
@@ -331,44 +331,44 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 94
+        "duration": 119
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 4
+        "duration": 5
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1077
+        "duration": 1167
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 647
+        "duration": 813
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 410
+        "duration": 435
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 397
+        "duration": 422
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 2629
+      "duration": 2961
     }
   },
   "Mangapill": {
@@ -383,44 +383,44 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 56
+        "duration": 71
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 5
+        "duration": 6
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1338
+        "duration": 1250
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 416
+        "duration": 316
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 368
+        "duration": 272
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 382
+        "duration": 427
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 2565
+      "duration": 2342
     }
   },
   "QToon": {
@@ -431,111 +431,7 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 49
-      },
-      {
-        "name": "getSortingOptions",
-        "runner": {},
-        "status": "pass",
-        "duration": 6
-      },
-      {
-        "name": "getSearchResults",
-        "runner": {},
-        "status": "fail",
-        "error": "TypeError: fetch failed",
-        "duration": 611
-      },
-      {
-        "name": "getMangaDetails",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
-      },
-      {
-        "name": "getChapters",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
-      },
-      {
-        "name": "getChapterDetails",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
-      }
-    ],
-    "summary": {
-      "passed": 2,
-      "failed": 4,
-      "total": 6,
-      "duration": 667
-    }
-  },
-  "QiScans": {
-    "console": [],
-    "name": "QiScans tests",
-    "tests": [
-      {
-        "name": "initialisation",
-        "runner": {},
-        "status": "pass",
-        "duration": 43
-      },
-      {
-        "name": "getSortingOptions",
-        "runner": {},
-        "status": "pass",
-        "duration": 6
-      },
-      {
-        "name": "getSearchResults",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: Cloudflare bypass is required",
-        "duration": 647
-      },
-      {
-        "name": "getMangaDetails",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
-      },
-      {
-        "name": "getChapters",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
-      },
-      {
-        "name": "getChapterDetails",
-        "runner": {},
-        "status": "fail",
-        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
-      }
-    ],
-    "summary": {
-      "passed": 2,
-      "failed": 4,
-      "total": 6,
-      "duration": 696
-    }
-  },
-  "Webtoon": {
-    "console": [],
-    "name": "Webtoon tests",
-    "tests": [
-      {
-        "name": "initialisation",
-        "runner": {},
-        "status": "pass",
-        "duration": 23
+        "duration": 62
       },
       {
         "name": "getSortingOptions",
@@ -547,15 +443,67 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
-        "error": "AssertionError: expected [] not to be empty",
-        "duration": 2
+        "error": "TypeError: fetch failed",
+        "duration": 446
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 11
+        "duration": 1
+      },
+      {
+        "name": "getChapters",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
+      },
+      {
+        "name": "getChapterDetails",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 0
+      }
+    ],
+    "summary": {
+      "passed": 2,
+      "failed": 4,
+      "total": 6,
+      "duration": 516
+    }
+  },
+  "QiScans": {
+    "console": [],
+    "name": "QiScans tests",
+    "tests": [
+      {
+        "name": "initialisation",
+        "runner": {},
+        "status": "pass",
+        "duration": 54
+      },
+      {
+        "name": "getSortingOptions",
+        "runner": {},
+        "status": "pass",
+        "duration": 8
+      },
+      {
+        "name": "getSearchResults",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: Cloudflare bypass is required",
+        "duration": 595
+      },
+      {
+        "name": "getMangaDetails",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
+        "duration": 0
       },
       {
         "name": "getChapters",
@@ -569,14 +517,66 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 1
+        "duration": 0
       }
     ],
     "summary": {
       "passed": 2,
       "failed": 4,
       "total": 6,
-      "duration": 45
+      "duration": 658
+    }
+  },
+  "Webtoon": {
+    "console": [],
+    "name": "Webtoon tests",
+    "tests": [
+      {
+        "name": "initialisation",
+        "runner": {},
+        "status": "pass",
+        "duration": 30
+      },
+      {
+        "name": "getSortingOptions",
+        "runner": {},
+        "status": "pass",
+        "duration": 9
+      },
+      {
+        "name": "getSearchResults",
+        "runner": {},
+        "status": "fail",
+        "error": "AssertionError: expected [] not to be empty",
+        "duration": 3
+      },
+      {
+        "name": "getMangaDetails",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
+        "duration": 13
+      },
+      {
+        "name": "getChapters",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 1
+      },
+      {
+        "name": "getChapterDetails",
+        "runner": {},
+        "status": "fail",
+        "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
+        "duration": 2
+      }
+    ],
+    "summary": {
+      "passed": 2,
+      "failed": 4,
+      "total": 6,
+      "duration": 58
     }
   },
   "WeebCentral": {
