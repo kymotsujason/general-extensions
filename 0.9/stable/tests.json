@@ -7,7 +7,7 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 312
+        "duration": 306
       },
       {
         "name": "getSortingOptions",
@@ -19,32 +19,32 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 623
+        "duration": 781
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 347
+        "duration": 345
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 523
+        "duration": 440
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 173
+        "duration": 124
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 1988
+      "duration": 2006
     }
   },
   "Comix": {
@@ -55,7 +55,7 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 285
+        "duration": 279
       },
       {
         "name": "getSortingOptions",
@@ -68,14 +68,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare bypass is required",
-        "duration": 458
+        "duration": 472
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 0
+        "duration": 1
       },
       {
         "name": "getChapters",
@@ -96,7 +96,7 @@
       "passed": 2,
       "failed": 4,
       "total": 6,
-      "duration": 754
+      "duration": 763
     }
   },
   "MangaDemon": {
@@ -107,44 +107,44 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 256
+        "duration": 252
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "pass",
-        "duration": 733
+        "duration": 566
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 217
+        "duration": 155
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 232
+        "duration": 165
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 218
+        "duration": 186
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 921
+        "duration": 338
       }
     ],
     "summary": {
       "passed": 6,
       "failed": 0,
       "total": 6,
-      "duration": 2577
+      "duration": 1662
     }
   },
   "MangaDex": {
@@ -159,21 +159,21 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 203
+        "duration": 200
       },
       {
         "name": "getSortingOptions",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare bypass is required",
-        "duration": 230
+        "duration": 479
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare bypass is required",
-        "duration": 288
+        "duration": 179
       },
       {
         "name": "getMangaDetails",
@@ -201,1105 +201,1105 @@
       "passed": 1,
       "failed": 5,
       "total": 6,
-      "duration": 721
+      "duration": 858
     }
   },
   "MangaFox": {
     "console": [
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c135"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c134"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c133"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c132"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c131"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c130"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c129"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384034,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c128"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052334,
         "args": [
           "Chapter ID: c127"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c126"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c125"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c124"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c123"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c122"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c121"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c120"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c119.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c119"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c118"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c117"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c116"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384035,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c115"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c114"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c113"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c112.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052335,
         "args": [
           "Chapter ID: c112"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c111"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c110"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c109"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c108"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c107"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c106"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c105.6"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c105.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c105"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c104"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c103"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c102"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c101"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c100"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c099"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c098.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c098"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c097"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052336,
         "args": [
           "Chapter ID: c096"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c095"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384036,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c094"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c093"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c092"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c091"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c090"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c089"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c088"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c087"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c086"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c085"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c084"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c083"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c082"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c081"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c080"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c079"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c078.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c078"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c077"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052337,
         "args": [
           "Chapter ID: c076"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c075"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c074"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c073"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c072"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c071"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c070"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c069"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384037,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c068"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c067"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c066"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c065"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c064.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c064"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c063"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c062"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c061"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c060.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c060"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c059.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052338,
         "args": [
           "Chapter ID: c059"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c058"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c057.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c057"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c056"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c055"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c054"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c053"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c052"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c051"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c050"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c049.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c049"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c048"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c047"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c046"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c045"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384038,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c044.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c044"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c043"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c042"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c027.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c041"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052339,
         "args": [
           "Chapter ID: c040"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c039"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c038"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c037"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c036.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c036"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c035"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c034"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c033"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c032"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c031"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c030.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c030"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c029.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c029"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c028"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c027"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c026"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384039,
+        "time": 1780256052340,
         "args": [
           "Chapter ID: c025"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c024.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c024"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c023"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c022"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c021"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c020"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c019"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c018.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c018"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c017"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c016"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c015"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c014"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c013"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c012"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c011"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c010"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c009"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052341,
         "args": [
           "Chapter ID: c008"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c007"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384040,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c006.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c006"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c005"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c004"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c003.5"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c003"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c002"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052342,
         "args": [
           "Chapter ID: c001"
         ],
         "method": "log"
       },
       {
-        "time": 1780252384041,
+        "time": 1780256052343,
         "args": [
           "Fetching chapter details for c001"
         ],
         "method": "log"
       },
       {
-        "time": 1780252385233,
+        "time": 1780256055438,
         "args": [
           "Successfully extracted 34 pages"
         ],
@@ -1312,60 +1312,60 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 177
+        "duration": 175
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 277
+        "duration": 452
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 307
+        "duration": 332
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 92
+        "duration": 241
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 1192
+        "duration": 3096
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 2045
+      "duration": 4296
     }
   },
   "MangaKatana": {
     "console": [
       {
-        "time": 1780252385153,
+        "time": 1780256052619,
         "args": [
           "\n\n It failed from here \n\n"
         ],
         "method": "log"
       },
       {
-        "time": 1780252385155,
+        "time": 1780256052621,
         "args": [
           "\n\nThe Mangas Length: 20 , the page: 1 and nextPageMeta: {\"page\":2}\n\n"
         ],
         "method": "log"
       },
       {
-        "time": 1780252385941,
+        "time": 1780256053233,
         "args": [
-          "Extracted pages: [\"https://i1.mangakatana.com/token/fda8d28d7010841708w2r3.%3Ac01%3A5%3A-531t6180oqn%3A163%3A4q9q28511p0/0.jpg\",\"https://i1.mangakatana.com/token/fda8d28d7010841708w2r3.%3Ac01%3A5%3A-531t6180oqn%3A163%3A4q9q28511p0/0.jpg\",\"https://i1.mangakatana.com/token/990e7bcc7010841708w2r3.%3Ac01%3A6%3A-530t61r06qn%3A163%3A4qnq2351p91/1.jpg\",\"https://i1.mangakatana.com/token/9b869fe17010841708w2r3.%3Ac01%3Aq%3A-53rt61407qn%3A163%3A4q3q2r519r2/2.jpg\",\"https://i1.mangakatana.com/token/1eb816d57010841708w2r3.%3Ac01%3Aq%3A-530t61106qn%3A163%3A4qrq2q51p43/3.jpg\",\"https://i1.mangakatana.com/token/683998e97010841708w2r3.%3Ac01%3A9%3A-531t61q0pqn%3A163%3A4q2q2r51624/4.jpg\",\"https://i1.mangakatana.com/token/9b7268d17010841708w2r3.%3Ac01%3A0%3A-535t61506qn%3A163%3A4qoq2451o65/5.jpg\",\"https://i1.mangakatana.com/token/d3a99ad57010841708w2r3.%3Ac01%3Ao%3A-53st6170pqn%3A163%3A4qqq2551n56/6.jpg\",\"https://i1.mangakatana.com/token/0c74ec107010841708w2r3.%3Ac01%3A2%3A-531t61r0oqn%3A163%3A4q9q25516n7/7.jpg\",\"https://i1.mangakatana.com/token/edf21ed27010841708w2r3.%3Ac01%3A9%3A-537t61607qn%3A163%3A4qqq2751178/8.jpg\",\"https://i1.mangakatana.com/token/003ddbeb7010841708w2r3.%3Ac01%3A8%3A-536t61807qn%3A163%3A4q7q2q51159/9.jpg\",\"https://i1.mangakatana.com/token/acd8471f70108417083q%3A%3At21%3An.2n6r3516c1s0wq0%3A16q%3A4qo32651s-0/10.jpg\",\"https://i1.mangakatana.com/token/3993500c701084170834%3A%3At51%3An.2n6r3516c1p0wq0%3A16q%3A4qr327517-1/11.jpg\",\"https://i1.mangakatana.com/token/6aaba8d6701084170839%3A%3At81%3An.2snr3516c170wq0%3A16q%3A4q6320517-2/12.jpg\",\"https://i1.mangakatana.com/token/557636cb70108417083o%3A%3At81%3An.26or3516c130wq0%3A16q%3A4q032551p-3/13.jpg\",\"https://i1.mangakatana.com/token/24f74e5f70108417083n%3A%3At91%3An.2n1r3516c180wq0%3A16q%3A4qq32n516-4/14.jpg\",\"https://i1.mangakatana.com/token/00f50a23701084170834%3A%3Atn1%3An.22sr3516c180wq0%3A16q%3A4qn32r510-5/15.jpg\",\"https://i1.mangakatana.com/token/3e2fdac2701084170837%3A%3At01%3An.271r3516c1r0wq0%3A16q%3A4q832o519-6/16.jpg\",\"https://i1.mangakatana.com/token/eff83ede70108417083o%3A%3At71%3An.23rr3516c150wq0%3A16q%3A4qs32n517-7/17.jpg\",\"https://i1.mangakatana.com/token/358a530170108417083p%3A%3Atr1%3An.2o3r3516c1o0wq0%3A16q%3A4q3328512-8/18.jpg\",\"https://i1.mangakatana.com/token/642a403870108417083n%3A%3At01%3An.22nr3516c1q0wq0%3A16q%3A4qn325515-9/19.jpg\",\"https://i1.mangakatana.com/token/39279e82701084170833%3A%3Atr1%3An.2rsr3526c1n0wq0%3A16q%3A4qn325510-0/20.jpg\",\"https://i1.mangakatana.com/token/d7172fbb70108417083p%3A%3At01%3An.2o1r3526c150wq0%3A16q%3A4q232751s-1/21.jpg\",\"https://i1.mangakatana.com/token/4d95346070108417083r%3A%3At51%3An.20sr3526c1r0wq0%3A16q%3A4qo32n511-2/22.jpg\",\"https://i1.mangakatana.com/token/952c770270108417083o%3A%3Ats1%3An.2nnr3526c150wq0%3A16q%3A4qr323512-3/23.jpg\",\"https://i1.mangakatana.com/token/a3f280ae701084170833%3A%3Atr1%3An.2q6r3526c190wq0%3A16q%3A4q432r510-4/24.jpg\",\"https://i1.mangakatana.com/token/9902efb3701084170833%3A%3At21%3An.2p8r3526c1p0wq0%3A16q%3A4qr32451r-5/25.jpg\",\"https://i1.mangakatana.com/token/33bcbe63701084170833%3A%3Atr1%3An.275r3526c140wq0%3A16q%3A4q2320518-6/26.jpg\",\"https://i1.mangakatana.com/token/4a9f409b701084170832%3A%3At81%3An.262r3526c160wq0%3A16q%3A4q8324519-7/27.jpg\",\"https://i1.mangakatana.com/token/132d7825701084170839%3A%3At11%3An.2o0r3526c140wq0%3A16q%3A4q2328519-8/28.jpg\",\"https://i1.mangakatana.com/token/13b1f2fa701084170836%3A%3Ato1%3An.2snr3526c120wq0%3A16q%3A4q132r51s-9/29.jpg\",\"https://i1.mangakatana.com/token/7b0d19a7701084170833%3A%3At01%3An.283r3536c1p0wq0%3A16q%3A4q132651n-0/30.jpg\",\"https://i1.mangakatana.com/token/ed6ecc37701084170838%3A%3Atq1%3An.259r3536c160wq0%3A16q%3A4qr32351r-1/31.jpg\",\"https://i1.mangakatana.com/token/09fdd5e2701084170836%3A%3At71%3An.2nnr3536c1n0wq0%3A16q%3A4qr32s518-2/32.jpg\",\"https://i1.mangakatana.com/token/96d2e075701084170835%3A%3Atr1%3An.2sor3536c140wq0%3A16q%3A4qr32351o-3/33.jpg\",\"https://i1.mangakatana.com/token/86ed236f701084170835%3A%3At11%3An.222r3536c180wq0%3A16q%3A4q032151n-4/34.jpg\",\"https://i1.mangakatana.com/token/8c46ab57701084170834%3A%3At31%3An.242r3536c140wq0%3A16q%3A4q632r512-5/35.jpg\",\"https://i1.mangakatana.com/token/4f37cfd3701084170835%3A%3At71%3An.2o5r3536c1o0wq0%3A16q%3A4q432p51s-6/36.jpg\",\"https://i1.mangakatana.com/token/4ca24d56701084170830%3A%3At61%3An.261r3536c180wq0%3A16q%3A4qq32s511-7/37.jpg\",\"https://i1.mangakatana.com/token/c750734c701084170835%3A%3At51%3An.25sr3536c120wq0%3A16q%3A4q4326517-8/38.jpg\",\"https://i1.mangakatana.com/token/574a9369701084170830%3A%3At21%3An.249r3536c1o0wq0%3A16q%3A4q532551q-9/39.jpg\",\"https://i1.mangakatana.com/token/344df8d8701084170831%3A%3At61%3An.229r3546c110wq0%3A16q%3A4q432651s-0/40.jpg\",\"https://i1.mangakatana.com/token/fe1c54eb701084170831%3A%3At61%3An.2s3r3546c1s0wq0%3A16q%3A4q4328517-1/41.jpg\",\"https://i1.mangakatana.com/token/d784a5d0701084170832%3A%3At81%3An.231r3546c150wq0%3A16q%3A4q3325511-2/42.jpg\",\"https://i1.mangakatana.com/token/9d79f6e9701084170835%3A%3At91%3An.25nr3546c1q0wq0%3A16q%3A4q932s517-3/43.jpg\",\"https://i1.mangakatana.com/token/71e4e4ec70108417083s%3A%3At81%3An.28qr3546c140wq0%3A16q%3A4qs32351p-4/44.jpg\",\"https://i1.mangakatana.com/token/fc9dcff870108417083s%3A%3Atn1%3An.240r3546c180wq0%3A16q%3A4q932951n-5/45.jpg\",\"https://i1.mangakatana.com/token/259058c5701084170834%3A%3At11%3An.285r3546c130wq0%3A16q%3A4qr32r513-6/46.jpg\",\"https://i1.mangakatana.com/token/4591bf3070108417083r%3A%3At41%3An.272r3546c110wq0%3A16q%3A4qs326516-7/47.jpg\",\"https://i1.mangakatana.com/token/3b8929d570108417083n%3A%3At31%3An.239r3546c1q0wq0%3A16q%3A4qn323511-8/48.jpg\",\"https://i1.mangakatana.com/token/fc792402701084170832%3A%3At81%3An.2q3r3546c110wq0%3A16q%3A4qq329512-9/49.jpg\",\"https://i1.mangakatana.com/token/e864b335701084170830%3A%3Ato1%3An.2n9r3556c1q0wq0%3A16q%3A4qs32s519-0/50.jpg\",\"https://i1.mangakatana.com/token/275c98bb701084170830%3A%3At11%3An.270r3556c1o0wq0%3A16q%3A4qs321510-1/51.jpg\",\"https://i1.mangakatana.com/token/47561a79701084170836%3A%3Atp1%3An.268r3556c140wq0%3A16q%3A4q932q51o-2/52.jpg\",\"https://i1.mangakatana.com/token/7a94b964701084170833%3A%3Atp1%3An.270r3556c150wq0%3A16q%3A4q332n510-3/53.jpg\",\"https://i1.mangakatana.com/token/31bd637e701084170834%3A%3Ato1%3An.203r3556c180wq0%3A16q%3A4qs32s513-4/54.jpg\",\"https://i1.mangakatana.com/token/8d43dcdf701084170830%3A%3Ato1%3An.25rr3556c110wq0%3A16q%3A4q432s513-5/55.jpg\"]"
+          "Extracted pages: [\"https://i1.mangakatana.com/token/7856aaaa8010921708q0o%3At%3A99q.3o0p27-8c3r0w%3An%3A2s4%3A9q0o806q150/0.jpg\",\"https://i1.mangakatana.com/token/7856aaaa8010921708q0o%3At%3A99q.3o0p27-8c3r0w%3An%3A2s4%3A9q0o806q150/0.jpg\",\"https://i1.mangakatana.com/token/ab79da1c8010921708q8o%3At%3A99q.398p27-8c370w%3An%3A2s4%3A9qoo8q6q471/1.jpg\",\"https://i1.mangakatana.com/token/8a05a2f58010921708q5o%3At%3A99q.30sp27-8c350w%3An%3A2s4%3A9q2o846q002/2.jpg\",\"https://i1.mangakatana.com/token/1c2491c78010921708q7o%3At%3A99q.301p27-8c370w%3An%3A2s4%3A9q8o886q603/3.jpg\",\"https://i1.mangakatana.com/token/6732cab48010921708qno%3At%3A99q.3q3p27-8c3o0w%3An%3A2s4%3A9qoo876q264/4.jpg\",\"https://i1.mangakatana.com/token/7ce9d5e48010921708q9o%3At%3A99q.3orp27-8c3o0w%3An%3A2s4%3A9qso866qqn5/5.jpg\",\"https://i1.mangakatana.com/token/9c5d9ba08010921708q6o%3At%3A99q.3q5p27-8c3p0w%3An%3A2s4%3A9q9o866q3n6/6.jpg\",\"https://i1.mangakatana.com/token/3ef596828010921708q6o%3At%3A99q.330p27-8c390w%3An%3A2s4%3A9q4o806qq97/7.jpg\",\"https://i1.mangakatana.com/token/c541ef0c8010921708q9o%3At%3A99q.34sp27-8c3o0w%3An%3A2s4%3A9q1o846qr28/8.jpg\",\"https://i1.mangakatana.com/token/22a236658010921708qoo%3At%3A99q.379p27-8c360w%3An%3A2s4%3A9q6o836q639/9.jpg\",\"https://i1.mangakatana.com/token/74bae8af8010921708.54239o%3A%3A91%3Aq8ptq98c3r0wqn%3A2qo%3Apq17896so-0/10.jpg\",\"https://i1.mangakatana.com/token/588fbf7d8010921708.94239o%3A%3A91%3Ap9otq98c360wqn%3A2qo%3Apqn7826s7-1/11.jpg\",\"https://i1.mangakatana.com/token/8bc6b0d88010921708.54239o%3A%3A91%3A4o5tq98c390wqn%3A2qo%3Apq178p6s1-2/12.jpg\",\"https://i1.mangakatana.com/token/b7ca674a8010921708.24239o%3A%3A91%3Ap7stq98c330wqn%3A2qo%3Apq578n6s8-3/13.jpg\",\"https://i1.mangakatana.com/token/ca30f54f8010921708.24239o%3A%3A91%3Aqo0tq98c3r0wqn%3A2qo%3Apq47856sp-4/14.jpg\",\"https://i1.mangakatana.com/token/fa8d27308010921708.q4239o%3A%3A91%3A55otq98c330wqn%3A2qo%3Apq57876s2-5/15.jpg\",\"https://i1.mangakatana.com/token/4dbf481e8010921708.44239o%3A%3A91%3A8sstq98c340wqn%3A2qo%3Apqq78n6so-6/16.jpg\",\"https://i1.mangakatana.com/token/3d6e94568010921708.o4239o%3A%3A91%3An6otq98c3n0wqn%3A2qo%3Apq77856sr-7/17.jpg\",\"https://i1.mangakatana.com/token/78c58a1c8010921708.54239o%3A%3A91%3A080tq98c340wqn%3A2qo%3Apqq7876s5-8/18.jpg\",\"https://i1.mangakatana.com/token/5be8ed598010921708.o4239o%3A%3A91%3A856tq98c3q0wqn%3A2qo%3Apqo78n6s2-9/19.jpg\",\"https://i1.mangakatana.com/token/5ea33e278010921708.s4239o%3A%3A92%3As34tq98c3p0wqn%3A2qo%3Apqq7826s7-0/20.jpg\",\"https://i1.mangakatana.com/token/22ccce168010921708.84239o%3A%3A92%3A6o9tq98c3q0wqn%3A2qo%3Apq17886s9-1/21.jpg\",\"https://i1.mangakatana.com/token/f4499b138010921708.n4239o%3A%3A92%3Ar7ntq98c370wqn%3A2qo%3Apq87826sr-2/22.jpg\",\"https://i1.mangakatana.com/token/8c94f4f58010921708.r4239o%3A%3A92%3Ar26tq98c340wqn%3A2qo%3Apq878n6s7-3/23.jpg\",\"https://i1.mangakatana.com/token/74ec2a4b8010921708.o4239o%3A%3A92%3A4s0tq98c3r0wqn%3A2qo%3Apqn78s6ss-4/24.jpg\",\"https://i1.mangakatana.com/token/df7d5cbe8010921708.54239o%3A%3A92%3A01otq98c380wqn%3A2qo%3Apq77806s3-5/25.jpg\",\"https://i1.mangakatana.com/token/91f5778d8010921708.q4239o%3A%3A92%3A78stq98c360wqn%3A2qo%3Apq278n6so-6/26.jpg\",\"https://i1.mangakatana.com/token/201ec3a58010921708.p4239o%3A%3A92%3Ao31tq98c3o0wqn%3A2qo%3Apq378n6sq-7/27.jpg\",\"https://i1.mangakatana.com/token/377a79768010921708.o4239o%3A%3A92%3A8n1tq98c3n0wqn%3A2qo%3Apqr78p6ss-8/28.jpg\",\"https://i1.mangakatana.com/token/463039a78010921708.o4239o%3A%3A92%3Aq74tq98c3p0wqn%3A2qo%3Apq47856ss-9/29.jpg\",\"https://i1.mangakatana.com/token/7378052c8010921708.r4239o%3A%3A93%3A994tq98c3s0wqn%3A2qo%3Apqr7896s0-0/30.jpg\",\"https://i1.mangakatana.com/token/363b1f848010921708.34239o%3A%3A93%3A8s4tq98c380wqn%3A2qo%3Apq17826s4-1/31.jpg\",\"https://i1.mangakatana.com/token/085f33db8010921708.54239o%3A%3A93%3A437tq98c340wqn%3A2qo%3Apqr78r6s2-2/32.jpg\"]"
         ],
         "method": "log"
       }
@@ -1376,38 +1376,38 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 155
+        "duration": 154
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1789
+        "duration": 1303
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 261
+        "duration": 219
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 290
+        "duration": 210
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 235
+        "duration": 182
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 2730
+      "duration": 2069
     }
   },
   "MangaPlus": {
@@ -1418,14 +1418,14 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 148
+        "duration": 147
       },
       {
         "name": "getSearchResults",
         "runner": {},
         "status": "fail",
         "error": "Error: You have been banned from MANGA Plus by SHUEISHA due to a possible violation of our Terms of Service.\nhttps://mangaplus.shueisha.co.jp/terms_web/eng/\nIf you have a MANGA Plus MAX subscription, it won't be automatically canceled. Find information on how to cancel you subscription here:\nhttps://mangaplus.thinkowl.jp/portal/mangaplus/knowledgebase/file/4634/How-do-I-cancel-my-subscription%3F(10900)",
-        "duration": 512
+        "duration": 956
       },
       {
         "name": "getMangaDetails",
@@ -1453,7 +1453,7 @@
       "passed": 1,
       "failed": 4,
       "total": 5,
-      "duration": 661
+      "duration": 1104
     }
   },
   "MangaTaro": {
@@ -1464,7 +1464,7 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 137
+        "duration": 136
       },
       {
         "name": "getSortingOptions",
@@ -1476,20 +1476,20 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1085
+        "duration": 1298
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 699
+        "duration": 808
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "fail",
         "error": "AssertionError: expected [] not to be empty",
-        "duration": 497
+        "duration": 510
       },
       {
         "name": "getChapterDetails",
@@ -1503,7 +1503,7 @@
       "passed": 4,
       "failed": 2,
       "total": 6,
-      "duration": 2425
+      "duration": 2759
     }
   },
   "Mangapill": {
@@ -1531,7 +1531,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare bypass is required",
-        "duration": 480
+        "duration": 573
       },
       {
         "name": "getMangaDetails",
@@ -1559,7 +1559,7 @@
       "passed": 2,
       "failed": 4,
       "total": 6,
-      "duration": 581
+      "duration": 674
     }
   },
   "PunkRecords": {
@@ -1576,32 +1576,32 @@
         "name": "getSearchResults",
         "runner": {},
         "status": "pass",
-        "duration": 1300
+        "duration": 1127
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "pass",
-        "duration": 1374
+        "duration": 911
       },
       {
         "name": "getChapters",
         "runner": {},
         "status": "pass",
-        "duration": 600
+        "duration": 429
       },
       {
         "name": "getChapterDetails",
         "runner": {},
         "status": "pass",
-        "duration": 325
+        "duration": 274
       }
     ],
     "summary": {
       "passed": 5,
       "failed": 0,
       "total": 5,
-      "duration": 3666
+      "duration": 2808
     }
   },
   "QiScans": {
@@ -1625,7 +1625,7 @@
         "runner": {},
         "status": "fail",
         "error": "Error: Cloudflare bypass is required",
-        "duration": 505
+        "duration": 577
       },
       {
         "name": "getMangaDetails",
@@ -1646,14 +1646,14 @@
         "runner": {},
         "status": "fail",
         "error": "Error: No `sourceManga` provided in test data. Unable to infer from `MangaProviding.getMangaDetails`",
-        "duration": 0
+        "duration": 1
       }
     ],
     "summary": {
       "passed": 2,
       "failed": 4,
       "total": 6,
-      "duration": 571
+      "duration": 644
     }
   },
   "Webtoon": {
@@ -1664,7 +1664,7 @@
         "name": "initialisation",
         "runner": {},
         "status": "pass",
-        "duration": 32
+        "duration": 33
       },
       {
         "name": "getSortingOptions",
@@ -1677,14 +1677,14 @@
         "runner": {},
         "status": "fail",
         "error": "AssertionError: expected [] not to be empty",
-        "duration": 15
+        "duration": 16
       },
       {
         "name": "getMangaDetails",
         "runner": {},
         "status": "fail",
         "error": "Error: No `mangaId` provided in test data. Unable to infer from `SearchResultsProviding.getSearchResults`",
-        "duration": 3
+        "duration": 2
       },
       {
         "name": "getChapters",
@@ -1705,7 +1705,7 @@
       "passed": 2,
       "failed": 4,
       "total": 6,
-      "duration": 62
+      "duration": 63
     }
   },
   "WeebCentral": {
